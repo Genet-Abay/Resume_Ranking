@@ -9,7 +9,9 @@ The project aims to rank the given resumes as a csv files, each row for each ind
 ## Stpes that I have followed described as follows
 
 1- Job title, job description and list of skills(both specific and sector) are extracted from the json file provided.
+
 2- Job description preprocessed and summarized so that it will be ready to compare with resume.
+
 3- Skills are preprocessed but not summarized.
 
 4- For each resume in each row "resume_text" 
@@ -18,7 +20,9 @@ The project aims to rank the given resumes as a csv files, each row for each ind
    Preprocess the text (cleaning, toknizing, lemmatizing...)
 
 5- I have used word2vec with cosine similarity score to calculate the rank between each resume and job(description and skills)
+
 6- All the scores from the education level, job description and skills summed up to get final rank and put into a list of dictionary containing id and rank.
+
 7- Finally the result is written to a csv file.
 
 	
